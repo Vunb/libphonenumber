@@ -19,6 +19,12 @@ npm install libphonenumber
 ```javascript
 var libphonenumber = require('libphonenumber')
 
-//
+libphonenumber.intl("0912102034", "vn");
+// +84 91 210 20 34
+
+libphonenumber.e164("0912102034", "vn");
+// +84912102034
 
 ```
+
+
